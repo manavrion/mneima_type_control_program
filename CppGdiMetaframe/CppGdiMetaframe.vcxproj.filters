@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EngineHeaders">
+      <UniqueIdentifier>{b53e0f5b-686d-47fd-b93a-6f4549d86b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EngineCpps">
+      <UniqueIdentifier>{e8a05a58-9a61-4938-a2c8-1f443a0648c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mneima_type_control_program">
+      <UniqueIdentifier>{f1b160a6-369c-4937-927b-55ff9123203e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mneima_type_arduino">
+      <UniqueIdentifier>{5a51703f-a1c1-43f2-8af3-96cfa15e54b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MetaFrame.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaTypes.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Size.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameElement.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCodes.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemWindow.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>EngineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="mneima_window.h">
+      <Filter>mneima_type_control_program</Filter>
+    </ClInclude>
+    <ClInclude Include="arduino_event_conroller.h">
+      <Filter>mneima_type_arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="serial.h">
+      <Filter>mneima_type_arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="mneima_slider.h">
+      <Filter>mneima_type_control_program</Filter>
+    </ClInclude>
+    <ClInclude Include="mneima_pulsar.h">
+      <Filter>mneima_type_control_program</Filter>
+    </ClInclude>
+    <ClInclude Include="mneima_stat.h">
+      <Filter>mneima_type_control_program</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemWindow.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameElement.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaTypes.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="wrapped_main.cpp">
+      <Filter>mneima_type_control_program</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>EngineCpps</Filter>
+    </ClCompile>
+    <ClCompile Include="mneima_window.cpp">
+      <Filter>mneima_type_control_program</Filter>
+    </ClCompile>
+    <ClCompile Include="arduino_event_conroller.cpp">
+      <Filter>mneima_type_arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="serial.cpp">
+      <Filter>mneima_type_arduino</Filter>
+    </ClCompile>
+    <ClCompile Include="mneima_slider.cpp">
+      <Filter>mneima_type_control_program</Filter>
+    </ClCompile>
+    <ClCompile Include="mneima_pulsar.cpp">
+      <Filter>mneima_type_control_program</Filter>
+    </ClCompile>
+    <ClCompile Include="mneima_stat.cpp">
+      <Filter>mneima_type_control_program</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CppGdiMetaframe.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="CppGdiMetaframe.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\glove_active.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\glove_notconnect.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\p1.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\p2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\p3.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\peltie.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\slider.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\peltier.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
